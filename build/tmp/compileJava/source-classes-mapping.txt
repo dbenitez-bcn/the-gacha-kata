@@ -1,0 +1,8 @@
+main.java
+ main
+GachaMachine.java
+ GachaMachine
+SuperHeroPrize.java
+ SuperHeroPrize
+Prize.java
+ Prize
