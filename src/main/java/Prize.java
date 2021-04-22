@@ -1,3 +1,3 @@
 public interface Prize {
-    String getPrise();
+    String openPrise();
 }
