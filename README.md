@@ -11,7 +11,7 @@ Gacha machines are quite common in Japan. They are boxes where you introduce a c
 1. First step
     - Checkout `first-step` branch and have a look to the code to understand it. Then execute the code. If everything is fine it should be failing. You will have more context about the exercise in the main file.
     - Implement `GachaMachine#fillPrizes` and `GachaMachine#getPrize` methods 
-    - If the implementation is ok you should be getting a random superhero in your console. You can always checkout `scond-step` branch in case you are stuck.
+    - If the implementation is ok you should be getting a random superhero in your console. You can always checkout `second-step` branch in case you are stuck.
    
 2. Second step
    - Paste the following code under the existing one in your `main` file.
