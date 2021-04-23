@@ -8,16 +8,16 @@ public class main {
     You can start by implementing the get prize method.
  */
     public static void main(String[] args) {
-        final var superHeroMachine = new GachaMachine();
+        final var superHeroMachine = new GachaMachine<SuperHeroPrize>();
         superHeroMachine.fillPrizes(new SuperHeroPrize());
         final var superHeroPrize = superHeroMachine.getPrize();
 
         // Should display a random superhero
         System.out.println(superHeroPrize);
 
-        final var pokemonMachine = new GachaMachine();
+        final var pokemonMachine = new GachaMachine<PokemonPrize>();
         pokemonMachine.fillPrizes(new PokemonPrize());
-        final var pokemonPrize = pokemonMachine.getPokemonPrize();
+        final var pokemonPrize = pokemonMachine.getPrize();
 
         // Should display a random superhero
         System.out.println(pokemonPrize);
