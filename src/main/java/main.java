@@ -8,9 +8,9 @@ public class main {
     You can start by implementing the get prize method.
  */
     public static void main(String[] args) {
-        final var gachaMachine = new GachaMachine();
-        gachaMachine.fillPrizes(new SuperHeroPrize());
-        final var superHeroPrize = gachaMachine.getPrize();
+        final var superHeroMachine = new GachaMachine();
+        superHeroMachine.fillPrizes(new SuperHeroPrize());
+        final var superHeroPrize = superHeroMachine.getPrize();
 
         // Should display a random superhero
         System.out.println(superHeroPrize);

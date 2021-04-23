@@ -1,7 +1,7 @@
 import java.util.Random;
 
 public class SuperHeroPrize {
-    private final String superHeroes[] = new String[] {"Ironman", "Captain america", "Thor", "Dr. Strange", "Black panther", "Hulk"};
+    private final String superHeroes[] = new String[] {"Ironman", "Captain america", "Thor", "Hulk"};
 
     @Override
     public String toString() {
