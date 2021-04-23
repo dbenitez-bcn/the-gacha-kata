@@ -5,7 +5,7 @@ public class SuperHeroPrize {
 
     @Override
     public String toString() {
-        final var i = new Random().nextInt(superHeroes.length - 1 + 1) + 1;
+        final var i = new Random().nextInt(superHeroes.length - 1 + 1);
         return superHeroes[i];
     }
 }
