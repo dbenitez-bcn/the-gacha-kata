@@ -3,6 +3,10 @@ Learn how to use generics using Java.
 ## Pre-requirements
 - OOP knowledge
 - Java 11
+## Description
+This kata is about building a gacha machine that we could fill with different type of prize and get them.
+Gacha machines are quite common in Japan. They are boxes where you introduce a coin and it will give you a random ball that contains some cool minis.
+![HTB1MhkwhpuWBuNjSszbq6AS7FXac](https://user-images.githubusercontent.com/39645422/115857248-be697d00-a42d-11eb-9401-8567a54d8f88.jpg)
 ## Kata steps
 1. First step
     - Checkout `first-step` branch and have a look to the code to understand it. Then execute the code. If everything is fine it should be failing. You will have more context about the exercise in the main file.
