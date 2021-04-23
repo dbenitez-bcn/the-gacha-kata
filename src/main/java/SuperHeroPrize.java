@@ -1,10 +1,10 @@
 import java.util.Random;
 
-public class SuperHeroPrize implements Prize {
+public class SuperHeroPrize {
     private final String superHeroes[] = new String[] {"Ironman", "Captain america", "Thor", "Dr. Strange", "Black panther", "Hulk"};
 
     @Override
-    public String openPrise() {
+    public String toString() {
         final var i = new Random().nextInt(superHeroes.length - 1 + 1) + 1;
         return superHeroes[i];
     }

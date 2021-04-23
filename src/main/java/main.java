@@ -9,10 +9,11 @@ public class main {
  */
     public static void main(String[] args) {
         final var gachaMachine = new GachaMachine();
+        gachaMachine.fillPrizes(new SuperHeroPrize());
         final var superHeroPrize = gachaMachine.getPrize();
 
         // Should display a random superhero
-        System.out.println(superHeroPrize.openPrise());
+        System.out.println(superHeroPrize);
     }
 
 }
