@@ -18,7 +18,7 @@ Gacha machines are quite common in Japan. They are boxes where you introduce a c
    ```  
    final var pokemonMachine = new GachaMachine();
    pokemonMachine.fillPrizes(new PokemonPrize());
-   final var pokemonPrize = pokemonMachine.getPrize();
+   final var pokemonPrize = pokemonMachine.getPokemonPrize();
 
    // Should display a random pokemon
    System.out.println(pokemonPrize);
@@ -31,6 +31,7 @@ Gacha machines are quite common in Japan. They are boxes where you introduce a c
    - Checkout this [lesson](https://docs.oracle.com/javase/tutorial/java/generics/why.html) and understand generics
    - Make your `GachaMachine` to work using generics.
    - After coding the solution you should end up having a small `GachaMachine` class using generics and completed this kata!
+   - You can check the final solution checking out `final-code` branch.
    
 ## Recommendations
 Do this exercise pairing with somebody that already knows how generics work, so your pair can solve any question you have about it.
