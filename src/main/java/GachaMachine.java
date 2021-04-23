@@ -4,14 +4,25 @@ import java.util.stream.Collectors;
 
 public class GachaMachine {
     private final ArrayList<SuperHeroPrize> prizes = new ArrayList<>();
+    private final ArrayList<PokemonPrize> pokemonPrizes = new ArrayList<>();
 
     public SuperHeroPrize getPrize() {
         return prizes.get(0);
     }
 
+    public PokemonPrize getPokemonPrize() {
+        return pokemonPrizes.get(0);
+    }
+
     public void fillPrizes(SuperHeroPrize... prize) {
         final var newPrizes = Arrays.stream(prize)
-                                  .collect(Collectors.toList());
+                                    .collect(Collectors.toList());
         prizes.addAll(newPrizes);
+    }
+
+    public void fillPrizes(PokemonPrize... prize) {
+        final var newPrizes = Arrays.stream(prize)
+                                    .collect(Collectors.toList());
+        pokemonPrizes.addAll(newPrizes);
     }
 }

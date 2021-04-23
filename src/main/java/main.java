@@ -14,6 +14,13 @@ public class main {
 
         // Should display a random superhero
         System.out.println(superHeroPrize);
+
+        final var pokemonMachine = new GachaMachine();
+        pokemonMachine.fillPrizes(new PokemonPrize());
+        final var pokemonPrize = pokemonMachine.getPokemonPrize();
+
+        // Should display a random superhero
+        System.out.println(pokemonPrize);
     }
 
 }
