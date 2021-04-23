@@ -5,7 +5,7 @@ public class PokemonPrize {
 
     @Override
     public String toString() {
-        final var i = new Random().nextInt(pokemons.length - 1 + 1) + 1;
+        final var i = new Random().nextInt(pokemons.length - 1 + 1);
         return pokemons[i];
     }
 }
