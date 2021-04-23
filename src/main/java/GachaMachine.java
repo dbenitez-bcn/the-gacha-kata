@@ -1,10 +1,17 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.stream.Collectors;
+
 public class GachaMachine {
+    private final ArrayList<SuperHeroPrize> prizes = new ArrayList<>();
 
     public SuperHeroPrize getPrize() {
-        throw new RuntimeException("Not implemented");
+        return prizes.get(0);
     }
 
     public void fillPrizes(SuperHeroPrize... prize) {
-        throw new RuntimeException("Not implemented");
+        final var newPrizes = Arrays.stream(prize)
+                                  .collect(Collectors.toList());
+        prizes.addAll(newPrizes);
     }
 }
